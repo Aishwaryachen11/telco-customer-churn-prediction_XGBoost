@@ -7,6 +7,9 @@ We compare **Logistic Regression**, **Random Forest**, and **XGBoost** (both tun
 The primary business goal:  
 > Identify customers most likely to leave, so targeted retention strategies can be applied.
 
+Use this link to access the notebook in Google Colab:  
+[Open Colab Notebook](https://github.com/Aishwaryachen11/telco-customer-churn-prediction_XGBoost/blob/main/Customer_churn_XGBoost%2C_Random_Forest.ipynb)
+
 ##  Steps & Workflow
 ### 1. **Data Loading & Initial Checks**
 - Loaded dataset into Pandas.
@@ -105,6 +108,9 @@ Interpretation:
 ### 10. **Explainability with SHAP**
 - Used **SHAP TreeExplainer** for feature importance.
 - Aggregated one-hot encoded features into their original groups for a business-friendly view.
+
+<img src="https://github.com/Aishwaryachen11/telco-customer-churn-prediction_XGBoost/blob/main/SHAP-Barplot.png" width="550"/>
+<img src="https://github.com/Aishwaryachen11/telco-customer-churn-prediction_XGBoost/blob/main/SHAP-Barplot2.png" width="550"/>
 
 **Top Factors Influencing Churn**:
 1. **Contract type** — Month-to-month strongly increases churn risk.
